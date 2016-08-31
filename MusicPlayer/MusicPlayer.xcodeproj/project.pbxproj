@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB24ED1E0282E41DBA82267C /* libPods-MusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */; };
+		F74998621D4080CE000DAFF1 /* JSColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74998611D4080CE000DAFF1 /* JSColorLabel.m */; };
+		F74998651D40ACAE000DAFF1 /* JSCenterLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74998641D40ACAE000DAFF1 /* JSCenterLyricView.m */; };
+		F775AEA01D3DF7D90068679C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AE9D1D3DF7D90068679C /* ViewController.m */; };
+		F775AEAA1D3DF7DF0068679C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AEA31D3DF7DF0068679C /* AppDelegate.m */; };
+		F775AEAB1D3DF7DF0068679C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F775AEA41D3DF7DF0068679C /* Assets.xcassets */; };
+		F775AEAD1D3DF7DF0068679C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F775AEA71D3DF7DF0068679C /* Main.storyboard */; };
+		F775AEAE1D3DF7DF0068679C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AEA91D3DF7DF0068679C /* main.m */; };
+		F775AEE81D3E4A0F0068679C /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = F775AED31D3E4A0F0068679C /* buyao.wav */; };
+		F775AEE91D3E4A0F0068679C /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = F775AED41D3E4A0F0068679C /* chatcome.wav */; };
+		F775AEEA1D3E4A0F0068679C /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AED51D3E4A0F0068679C /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		F775AEEB1D3E4A0F0068679C /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AED61D3E4A0F0068679C /* I'm yours.lrc */; };
+		F775AEEC1D3E4A0F0068679C /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AED71D3E4A0F0068679C /* Jason Mraz - I'm Yours.mp3 */; };
+		F775AEED1D3E4A0F0068679C /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AED81D3E4A0F0068679C /* jason.jpg */; };
+		F775AEEE1D3E4A0F0068679C /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AED91D3E4A0F0068679C /* lamazhengzhuan.jpg */; };
+		F775AEEF1D3E4A0F0068679C /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDA1D3E4A0F0068679C /* Owl City - The Saltwater Room.mp3 */; };
+		F775AEF01D3E4A0F0068679C /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDB1D3E4A0F0068679C /* paomo.jpg */; };
+		F775AEF11D3E4A0F0068679C /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDC1D3E4A0F0068679C /* st.jpg */; };
+		F775AEF21D3E4A0F0068679C /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDD1D3E4A0F0068679C /* test.wav */; };
+		F775AEF31D3E4A0F0068679C /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDE1D3E4A0F0068679C /* The salt water room.lrc */; };
+		F775AEF41D3E4A0F0068679C /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AEDF1D3E4A0F0068679C /* xpg.jpg */; };
+		F775AEF51D3E4A0F0068679C /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE01D3E4A0F0068679C /* 小苹果.lrc */; };
+		F775AEF61D3E4A0F0068679C /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE11D3E4A0F0068679C /* 小苹果.mp3 */; };
+		F775AEF71D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE21D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 */; };
+		F775AEF81D3E4A0F0068679C /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE31D3E4A0F0068679C /* 月半小夜曲.lrc */; };
+		F775AEF91D3E4A0F0068679C /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE41D3E4A0F0068679C /* 李克勤 - 月半小夜曲.mp3 */; };
+		F775AEFA1D3E4A0F0068679C /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE51D3E4A0F0068679C /* 李克勤.jpg */; };
+		F775AEFB1D3E4A0F0068679C /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE61D3E4A0F0068679C /* 泡沫.lrc */; };
+		F775AEFC1D3E4A0F0068679C /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE71D3E4A0F0068679C /* 稳稳的幸福.lrc */; };
+		F775AF061D3E7A4A0068679C /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F775AF051D3E7A4A0068679C /* mlist.plist */; };
+		F775AF091D3E7A6F0068679C /* JSMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF081D3E7A6F0068679C /* JSMusicModel.m */; };
+		F775AF0D1D3E814C0068679C /* JSMusciManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF0C1D3E814C0068679C /* JSMusciManager.m */; };
+		F7EAC3A21D3F34A600C970D1 /* JSLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */; };
+		F7EAC3A51D3F353B00C970D1 /* JSLyricManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */; };
+		F7EAC3A81D3F3CF000C970D1 /* NSDateFormatter+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A71D3F3CF000C970D1 /* NSDateFormatter+Shared.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A34D5C46E9A1ADF7F9427C7 /* Pods-MusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		3DDA3EA1D462E8367C25DB8A /* Pods-MusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74998601D4080CE000DAFF1 /* JSColorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSColorLabel.h; sourceTree = "<group>"; };
+		F74998611D4080CE000DAFF1 /* JSColorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSColorLabel.m; sourceTree = "<group>"; };
+		F74998631D40ACAE000DAFF1 /* JSCenterLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCenterLyricView.h; sourceTree = "<group>"; };
+		F74998641D40ACAE000DAFF1 /* JSCenterLyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCenterLyricView.m; sourceTree = "<group>"; };
+		F775AE801D3DF48A0068679C /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F775AE941D3DF48A0068679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		F775AE9C1D3DF7D90068679C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F775AE9D1D3DF7D90068679C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F775AEA21D3DF7DF0068679C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F775AEA31D3DF7DF0068679C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F775AEA41D3DF7DF0068679C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F775AEA81D3DF7DF0068679C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F775AEA91D3DF7DF0068679C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F775AED31D3E4A0F0068679C /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		F775AED41D3E4A0F0068679C /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		F775AED51D3E4A0F0068679C /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		F775AED61D3E4A0F0068679C /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		F775AED71D3E4A0F0068679C /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		F775AED81D3E4A0F0068679C /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		F775AED91D3E4A0F0068679C /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		F775AEDA1D3E4A0F0068679C /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		F775AEDB1D3E4A0F0068679C /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		F775AEDC1D3E4A0F0068679C /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		F775AEDD1D3E4A0F0068679C /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		F775AEDE1D3E4A0F0068679C /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		F775AEDF1D3E4A0F0068679C /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		F775AEE01D3E4A0F0068679C /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		F775AEE11D3E4A0F0068679C /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		F775AEE21D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		F775AEE31D3E4A0F0068679C /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		F775AEE41D3E4A0F0068679C /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		F775AEE51D3E4A0F0068679C /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		F775AEE61D3E4A0F0068679C /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		F775AEE71D3E4A0F0068679C /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		F775AF051D3E7A4A0068679C /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		F775AF071D3E7A6F0068679C /* JSMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusicModel.h; sourceTree = "<group>"; };
+		F775AF081D3E7A6F0068679C /* JSMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusicModel.m; sourceTree = "<group>"; };
+		F775AF0B1D3E814C0068679C /* JSMusciManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusciManager.h; sourceTree = "<group>"; };
+		F775AF0C1D3E814C0068679C /* JSMusciManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusciManager.m; sourceTree = "<group>"; };
+		F7EAC3A01D3F34A600C970D1 /* JSLyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLyricModel.h; sourceTree = "<group>"; };
+		F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLyricModel.m; sourceTree = "<group>"; };
+		F7EAC3A31D3F353B00C970D1 /* JSLyricManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLyricManager.h; sourceTree = "<group>"; };
+		F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLyricManager.m; sourceTree = "<group>"; };
+		F7EAC3A61D3F3CF000C970D1 /* NSDateFormatter+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Shared.h"; sourceTree = "<group>"; };
+		F7EAC3A71D3F3CF000C970D1 /* NSDateFormatter+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Shared.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F775AE7D1D3DF48A0068679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB24ED1E0282E41DBA82267C /* libPods-MusicPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9356AFE9107BB47E314C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF8A2CB56FB4CA7C72B8CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA3EA1D462E8367C25DB8A /* Pods-MusicPlayer.debug.xcconfig */,
+				1A34D5C46E9A1ADF7F9427C7 /* Pods-MusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F775AE771D3DF48A0068679C = {
+			isa = PBXGroup;
+			children = (
+				F775AE821D3DF48A0068679C /* MusicPlayer */,
+				F775AE811D3DF48A0068679C /* Products */,
+				DEF8A2CB56FB4CA7C72B8CB5 /* Pods */,
+				7B9356AFE9107BB47E314C44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F775AE811D3DF48A0068679C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F775AE801D3DF48A0068679C /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F775AE821D3DF48A0068679C /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F775AEA11D3DF7DF0068679C /* SupportingFiles */,
+				F775AF0A1D3E81370068679C /* CommonTool */,
+				F775AE9A1D3DF7D90068679C /* Classess */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		F775AE9A1D3DF7D90068679C /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				F775AE9B1D3DF7D90068679C /* Controllers */,
+				F775AE9E1D3DF7D90068679C /* Models */,
+				F775AE9F1D3DF7D90068679C /* Views */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		F775AE9B1D3DF7D90068679C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F775AE9C1D3DF7D90068679C /* ViewController.h */,
+				F775AE9D1D3DF7D90068679C /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F775AE9E1D3DF7D90068679C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F775AF071D3E7A6F0068679C /* JSMusicModel.h */,
+				F775AF081D3E7A6F0068679C /* JSMusicModel.m */,
+				F7EAC3A01D3F34A600C970D1 /* JSLyricModel.h */,
+				F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F775AE9F1D3DF7D90068679C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F74998601D4080CE000DAFF1 /* JSColorLabel.h */,
+				F74998611D4080CE000DAFF1 /* JSColorLabel.m */,
+				F74998631D40ACAE000DAFF1 /* JSCenterLyricView.h */,
+				F74998641D40ACAE000DAFF1 /* JSCenterLyricView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F775AEA11D3DF7DF0068679C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F775AF051D3E7A4A0068679C /* mlist.plist */,
+				F775AED21D3E4A0F0068679C /* Assets */,
+				F775AEA21D3DF7DF0068679C /* AppDelegate.h */,
+				F775AEA31D3DF7DF0068679C /* AppDelegate.m */,
+				F775AEA41D3DF7DF0068679C /* Assets.xcassets */,
+				F775AEA71D3DF7DF0068679C /* Main.storyboard */,
+				F775AEA91D3DF7DF0068679C /* main.m */,
+				F775AE941D3DF48A0068679C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F775AED21D3E4A0F0068679C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F775AED31D3E4A0F0068679C /* buyao.wav */,
+				F775AED41D3E4A0F0068679C /* chatcome.wav */,
+				F775AED51D3E4A0F0068679C /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				F775AED61D3E4A0F0068679C /* I'm yours.lrc */,
+				F775AED71D3E4A0F0068679C /* Jason Mraz - I'm Yours.mp3 */,
+				F775AED81D3E4A0F0068679C /* jason.jpg */,
+				F775AED91D3E4A0F0068679C /* lamazhengzhuan.jpg */,
+				F775AEDA1D3E4A0F0068679C /* Owl City - The Saltwater Room.mp3 */,
+				F775AEDB1D3E4A0F0068679C /* paomo.jpg */,
+				F775AEDC1D3E4A0F0068679C /* st.jpg */,
+				F775AEDD1D3E4A0F0068679C /* test.wav */,
+				F775AEDE1D3E4A0F0068679C /* The salt water room.lrc */,
+				F775AEDF1D3E4A0F0068679C /* xpg.jpg */,
+				F775AEE01D3E4A0F0068679C /* 小苹果.lrc */,
+				F775AEE11D3E4A0F0068679C /* 小苹果.mp3 */,
+				F775AEE21D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 */,
+				F775AEE31D3E4A0F0068679C /* 月半小夜曲.lrc */,
+				F775AEE41D3E4A0F0068679C /* 李克勤 - 月半小夜曲.mp3 */,
+				F775AEE51D3E4A0F0068679C /* 李克勤.jpg */,
+				F775AEE61D3E4A0F0068679C /* 泡沫.lrc */,
+				F775AEE71D3E4A0F0068679C /* 稳稳的幸福.lrc */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F775AF0A1D3E81370068679C /* CommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				F775AF0B1D3E814C0068679C /* JSMusciManager.h */,
+				F775AF0C1D3E814C0068679C /* JSMusciManager.m */,
+				F7EAC3A31D3F353B00C970D1 /* JSLyricManager.h */,
+				F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */,
+				F7EAC3A61D3F3CF000C970D1 /* NSDateFormatter+Shared.h */,
+				F7EAC3A71D3F3CF000C970D1 /* NSDateFormatter+Shared.m */,
+			);
+			name = CommonTool;
+			path = Classess/CommonTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F775AE7F1D3DF48A0068679C /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F775AE971D3DF48A0068679C /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				34D208EAE1B30333598C81A8 /* [CP] Check Pods Manifest.lock */,
+				F775AE7C1D3DF48A0068679C /* Sources */,
+				F775AE7D1D3DF48A0068679C /* Frameworks */,
+				F775AE7E1D3DF48A0068679C /* Resources */,
+				CBA4685C727656D791C0BE8F /* [CP] Embed Pods Frameworks */,
+				F5F02C3D7C19ECED03DE98FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = F775AE801D3DF48A0068679C /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F775AE781D3DF48A0068679C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___ShenYJ___";
+				TargetAttributes = {
+					F775AE7F1D3DF48A0068679C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KS5QTFAS57;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F775AE7B1D3DF48A0068679C /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F775AE771D3DF48A0068679C;
+			productRefGroup = F775AE811D3DF48A0068679C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F775AE7F1D3DF48A0068679C /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F775AE7E1D3DF48A0068679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F775AEFA1D3E4A0F0068679C /* 李克勤.jpg in Resources */,
+				F775AEEC1D3E4A0F0068679C /* Jason Mraz - I'm Yours.mp3 in Resources */,
+				F775AEE91D3E4A0F0068679C /* chatcome.wav in Resources */,
+				F775AEF91D3E4A0F0068679C /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				F775AEEF1D3E4A0F0068679C /* Owl City - The Saltwater Room.mp3 in Resources */,
+				F775AEF61D3E4A0F0068679C /* 小苹果.mp3 in Resources */,
+				F775AEAD1D3DF7DF0068679C /* Main.storyboard in Resources */,
+				F775AEFB1D3E4A0F0068679C /* 泡沫.lrc in Resources */,
+				F775AEEE1D3E4A0F0068679C /* lamazhengzhuan.jpg in Resources */,
+				F775AEF21D3E4A0F0068679C /* test.wav in Resources */,
+				F775AEED1D3E4A0F0068679C /* jason.jpg in Resources */,
+				F775AEAB1D3DF7DF0068679C /* Assets.xcassets in Resources */,
+				F775AEE81D3E4A0F0068679C /* buyao.wav in Resources */,
+				F775AEF41D3E4A0F0068679C /* xpg.jpg in Resources */,
+				F775AF061D3E7A4A0068679C /* mlist.plist in Resources */,
+				F775AEF71D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 in Resources */,
+				F775AEFC1D3E4A0F0068679C /* 稳稳的幸福.lrc in Resources */,
+				F775AEF51D3E4A0F0068679C /* 小苹果.lrc in Resources */,
+				F775AEF81D3E4A0F0068679C /* 月半小夜曲.lrc in Resources */,
+				F775AEF11D3E4A0F0068679C /* st.jpg in Resources */,
+				F775AEEA1D3E4A0F0068679C /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				F775AEF01D3E4A0F0068679C /* paomo.jpg in Resources */,
+				F775AEEB1D3E4A0F0068679C /* I'm yours.lrc in Resources */,
+				F775AEF31D3E4A0F0068679C /* The salt water room.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D208EAE1B30333598C81A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA4685C727656D791C0BE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F02C3D7C19ECED03DE98FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F775AE7C1D3DF48A0068679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EAC3A81D3F3CF000C970D1 /* NSDateFormatter+Shared.m in Sources */,
+				F7EAC3A21D3F34A600C970D1 /* JSLyricModel.m in Sources */,
+				F775AF091D3E7A6F0068679C /* JSMusicModel.m in Sources */,
+				F74998621D4080CE000DAFF1 /* JSColorLabel.m in Sources */,
+				F74998651D40ACAE000DAFF1 /* JSCenterLyricView.m in Sources */,
+				F775AEAA1D3DF7DF0068679C /* AppDelegate.m in Sources */,
+				F775AF0D1D3E814C0068679C /* JSMusciManager.m in Sources */,
+				F775AEAE1D3DF7DF0068679C /* main.m in Sources */,
+				F775AEA01D3DF7D90068679C /* ViewController.m in Sources */,
+				F7EAC3A51D3F353B00C970D1 /* JSLyricManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F775AEA71D3DF7DF0068679C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F775AEA81D3DF7DF0068679C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F775AE951D3DF48A0068679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F775AE961D3DF48A0068679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F775AE981D3DF48A0068679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDA3EA1D462E8367C25DB8A /* Pods-MusicPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---ShenYJ---.MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F775AE991D3DF48A0068679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A34D5C46E9A1ADF7F9427C7 /* Pods-MusicPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---ShenYJ---.MusicPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F775AE7B1D3DF48A0068679C /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F775AE951D3DF48A0068679C /* Debug */,
+				F775AE961D3DF48A0068679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F775AE971D3DF48A0068679C /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F775AE981D3DF48A0068679C /* Debug */,
+				F775AE991D3DF48A0068679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F775AE781D3DF48A0068679C /* Project object */;
+}
