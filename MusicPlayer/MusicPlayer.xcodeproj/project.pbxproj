@@ -39,6 +39,7 @@
 		F775AF061D3E7A4A0068679C /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F775AF051D3E7A4A0068679C /* mlist.plist */; };
 		F775AF091D3E7A6F0068679C /* JSMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF081D3E7A6F0068679C /* JSMusicModel.m */; };
 		F775AF0D1D3E814C0068679C /* JSMusciManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF0C1D3E814C0068679C /* JSMusciManager.m */; };
+		F79C764C258ADBBD0062F051 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79C764B258ADBBD0062F051 /* Launch Screen.storyboard */; };
 		F7EAC3A21D3F34A600C970D1 /* JSLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */; };
 		F7EAC3A51D3F353B00C970D1 /* JSLyricManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */; };
 		F7EAC3A81D3F3CF000C970D1 /* NSDateFormatter+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A71D3F3CF000C970D1 /* NSDateFormatter+Shared.m */; };
@@ -87,6 +88,7 @@
 		F775AF081D3E7A6F0068679C /* JSMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusicModel.m; sourceTree = "<group>"; };
 		F775AF0B1D3E814C0068679C /* JSMusciManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusciManager.h; sourceTree = "<group>"; };
 		F775AF0C1D3E814C0068679C /* JSMusciManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusciManager.m; sourceTree = "<group>"; };
+		F79C764B258ADBBD0062F051 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F7EAC3A01D3F34A600C970D1 /* JSLyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLyricModel.h; sourceTree = "<group>"; };
 		F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLyricModel.m; sourceTree = "<group>"; };
 		F7EAC3A31D3F353B00C970D1 /* JSLyricManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLyricManager.h; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				F775AEA31D3DF7DF0068679C /* AppDelegate.m */,
 				F775AEA41D3DF7DF0068679C /* Assets.xcassets */,
 				F775AEA71D3DF7DF0068679C /* Main.storyboard */,
+				F79C764B258ADBBD0062F051 /* Launch Screen.storyboard */,
 				F775AEA91D3DF7DF0068679C /* main.m */,
 				F775AE941D3DF48A0068679C /* Info.plist */,
 			);
@@ -298,6 +301,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -329,6 +333,7 @@
 				F775AEED1D3E4A0F0068679C /* jason.jpg in Resources */,
 				F775AEAB1D3DF7DF0068679C /* Assets.xcassets in Resources */,
 				F775AEE81D3E4A0F0068679C /* buyao.wav in Resources */,
+				F79C764C258ADBBD0062F051 /* Launch Screen.storyboard in Resources */,
 				F775AEF41D3E4A0F0068679C /* xpg.jpg in Resources */,
 				F775AF061D3E7A4A0068679C /* mlist.plist in Resources */,
 				F775AEF71D3E4A0F0068679C /* 张译 - 稳稳的幸福.mp3 in Resources */,
