@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB24ED1E0282E41DBA82267C /* libPods-MusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */; };
+		1172FD5651A41CB8A9466478 /* Pods_MusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4FC6CC75B385D7B8E913B2 /* Pods_MusicPlayer.framework */; };
 		F74998621D4080CE000DAFF1 /* JSColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F74998611D4080CE000DAFF1 /* JSColorLabel.m */; };
 		F74998651D40ACAE000DAFF1 /* JSCenterLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74998641D40ACAE000DAFF1 /* JSCenterLyricView.m */; };
 		F775AEA01D3DF7D90068679C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AE9D1D3DF7D90068679C /* ViewController.m */; };
@@ -47,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		1A34D5C46E9A1ADF7F9427C7 /* Pods-MusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		2E4FC6CC75B385D7B8E913B2 /* Pods_MusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDA3EA1D462E8367C25DB8A /* Pods-MusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74998601D4080CE000DAFF1 /* JSColorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSColorLabel.h; sourceTree = "<group>"; };
 		F74998611D4080CE000DAFF1 /* JSColorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSColorLabel.m; sourceTree = "<group>"; };
 		F74998631D40ACAE000DAFF1 /* JSCenterLyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCenterLyricView.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB24ED1E0282E41DBA82267C /* libPods-MusicPlayer.a in Frameworks */,
+				1172FD5651A41CB8A9466478 /* Pods_MusicPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 		7B9356AFE9107BB47E314C44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACC3A90BF50B6BBCDFDC10F4 /* libPods-MusicPlayer.a */,
+				2E4FC6CC75B385D7B8E913B2 /* Pods_MusicPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,8 +264,7 @@
 				F775AE7C1D3DF48A0068679C /* Sources */,
 				F775AE7D1D3DF48A0068679C /* Frameworks */,
 				F775AE7E1D3DF48A0068679C /* Resources */,
-				CBA4685C727656D791C0BE8F /* [CP] Embed Pods Frameworks */,
-				F5F02C3D7C19ECED03DE98FE /* [CP] Copy Pods Resources */,
+				C72169B41113ACE0B5F71571 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,43 +356,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicPlayer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBA4685C727656D791C0BE8F /* [CP] Embed Pods Frameworks */ = {
+		C72169B41113ACE0B5F71571 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5F02C3D7C19ECED03DE98FE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MusicPlayer/Pods-MusicPlayer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
