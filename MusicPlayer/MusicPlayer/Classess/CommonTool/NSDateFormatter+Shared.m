@@ -11,7 +11,7 @@
 static NSDateFormatter *_instanceType = nil;
 @implementation NSDateFormatter (Shared)
 
-+ (instancetype)sharedManager{
++ (instancetype)sharedManager {
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

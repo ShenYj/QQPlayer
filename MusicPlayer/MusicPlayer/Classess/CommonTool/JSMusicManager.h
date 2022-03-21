@@ -1,5 +1,5 @@
 //
-//  JSMusciManager.h
+//  JSMusicManager.h
 //  MusicPlayer
 //
 //  Created by ShenYj on 16/7/19.
@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface JSMusciManager : NSObject
+FOUNDATION_EXPORT NSString * const kAudioPlayerStatusChangedByAudioSessionInterruption;
+
+@interface JSMusicManager : NSObject
 
 // 总时长
 @property (nonatomic,assign) NSTimeInterval duration;
@@ -24,7 +26,7 @@
 - (void)playMusicWithFileName:(NSString *)fileName;
 // 暂停音乐
 - (void)pauseMusic;
-
+- (instancetype)init NS_UNAVAILABLE;
 
 
 @end

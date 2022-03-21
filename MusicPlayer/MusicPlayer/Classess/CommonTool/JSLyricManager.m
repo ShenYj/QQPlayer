@@ -12,7 +12,7 @@
 
 @implementation JSLyricManager
 
-+ (NSArray<JSLyricModel *> *)parserLyricWithFileName:(NSString *)fileName{
++ (NSArray<JSLyricModel *> *)parserLyricWithFileName:(NSString *)fileName {
     
     // 取出歌词字符串
     NSString *filePath = [[NSBundle mainBundle]pathForResource:fileName ofType:nil];
@@ -20,7 +20,6 @@
     
     // 分隔字符串
     NSArray *lyricArr = [lyricStr componentsSeparatedByString:@"\n"];
-    
     
     /*      正则表达式过滤字符串:
      [00:19.00]曲：河合奈保子 词：向雪怀
@@ -61,22 +60,19 @@
             
             // 添加到临时可变数组
             [tempMarr addObject:model];
-            
         }
-        
     }
     
     // 歌词起始时间排序
     NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"initialTime" ascending:YES];
     NSArray *lyricModelArr = [tempMarr sortedArrayUsingDescriptors:@[descriptor]];
     
-    
     // 进行解析
     return lyricModelArr;
 }
 
 // 将时间字符串转换为NSTimerInterval类型,方便外面直接判断
-+ (NSTimeInterval)timeIntervalWithTimeString:(NSString *)timeString{
++ (NSTimeInterval)timeIntervalWithTimeString:(NSString *)timeString {
     
     // 时间字符串 --> 日期对象 NSDate  --> 计算对应的时间间隔
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedManager];
@@ -89,7 +85,6 @@
     
     // 计算时间间隔
     return [targetDate timeIntervalSinceDate:initialDate];
-    
 }
 
 

@@ -10,7 +10,7 @@
 
 @implementation JSMusicModel
 
-- (instancetype)initWithDict:(NSDictionary *)dict{
+- (instancetype)initWithDict:(NSDictionary *)dict {
     
     self = [super init];
     if (self) {
@@ -19,14 +19,14 @@
     return self;
 }
 
-+ (instancetype)musicWithDict:(NSDictionary *)dict{
++ (instancetype)musicWithDict:(NSDictionary *)dict {
     
-    return [[self alloc]initWithDict:dict];
+    return [[self alloc] initWithDict:dict];
 }
 
-+ (NSArray *)loadMusicListWithFileName:(NSString *)fileName{
++ (NSArray *)loadMusicListWithFileName:(NSString *)fileName {
     
-    NSArray *arr = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]pathForResource:fileName ofType:@"plist"]];
+    NSArray *arr = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"]];
     
     NSMutableArray *mArr = [NSMutableArray array];
     for (NSDictionary *dict in arr) {

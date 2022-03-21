@@ -38,7 +38,7 @@
 		F775AEFC1D3E4A0F0068679C /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F775AEE71D3E4A0F0068679C /* 稳稳的幸福.lrc */; };
 		F775AF061D3E7A4A0068679C /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F775AF051D3E7A4A0068679C /* mlist.plist */; };
 		F775AF091D3E7A6F0068679C /* JSMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF081D3E7A6F0068679C /* JSMusicModel.m */; };
-		F775AF0D1D3E814C0068679C /* JSMusciManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF0C1D3E814C0068679C /* JSMusciManager.m */; };
+		F775AF0D1D3E814C0068679C /* JSMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F775AF0C1D3E814C0068679C /* JSMusicManager.m */; };
 		F79C764C258ADBBD0062F051 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79C764B258ADBBD0062F051 /* Launch Screen.storyboard */; };
 		F7EAC3A21D3F34A600C970D1 /* JSLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */; };
 		F7EAC3A51D3F353B00C970D1 /* JSLyricManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */; };
@@ -86,8 +86,8 @@
 		F775AF051D3E7A4A0068679C /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
 		F775AF071D3E7A6F0068679C /* JSMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusicModel.h; sourceTree = "<group>"; };
 		F775AF081D3E7A6F0068679C /* JSMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusicModel.m; sourceTree = "<group>"; };
-		F775AF0B1D3E814C0068679C /* JSMusciManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusciManager.h; sourceTree = "<group>"; };
-		F775AF0C1D3E814C0068679C /* JSMusciManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusciManager.m; sourceTree = "<group>"; };
+		F775AF0B1D3E814C0068679C /* JSMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMusicManager.h; sourceTree = "<group>"; };
+		F775AF0C1D3E814C0068679C /* JSMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMusicManager.m; sourceTree = "<group>"; };
 		F79C764B258ADBBD0062F051 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F7EAC3A01D3F34A600C970D1 /* JSLyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLyricModel.h; sourceTree = "<group>"; };
 		F7EAC3A11D3F34A600C970D1 /* JSLyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLyricModel.m; sourceTree = "<group>"; };
@@ -242,8 +242,8 @@
 		F775AF0A1D3E81370068679C /* CommonTool */ = {
 			isa = PBXGroup;
 			children = (
-				F775AF0B1D3E814C0068679C /* JSMusciManager.h */,
-				F775AF0C1D3E814C0068679C /* JSMusciManager.m */,
+				F775AF0B1D3E814C0068679C /* JSMusicManager.h */,
+				F775AF0C1D3E814C0068679C /* JSMusicManager.m */,
 				F7EAC3A31D3F353B00C970D1 /* JSLyricManager.h */,
 				F7EAC3A41D3F353B00C970D1 /* JSLyricManager.m */,
 				F7EAC3A61D3F3CF000C970D1 /* NSDateFormatter+Shared.h */,
@@ -399,7 +399,7 @@
 				F74998621D4080CE000DAFF1 /* JSColorLabel.m in Sources */,
 				F74998651D40ACAE000DAFF1 /* JSCenterLyricView.m in Sources */,
 				F775AEAA1D3DF7DF0068679C /* AppDelegate.m in Sources */,
-				F775AF0D1D3E814C0068679C /* JSMusciManager.m in Sources */,
+				F775AF0D1D3E814C0068679C /* JSMusicManager.m in Sources */,
 				F775AEAE1D3DF7DF0068679C /* main.m in Sources */,
 				F775AEA01D3DF7D90068679C /* ViewController.m in Sources */,
 				F7EAC3A51D3F353B00C970D1 /* JSLyricManager.m in Sources */,

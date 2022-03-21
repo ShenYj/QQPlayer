@@ -45,7 +45,7 @@ static CGFloat const LyricLabelHeight = 40;
 }
 
 // 设置歌词视图
-- (void)setupLyricView{
+- (void)setupLyricView {
     
     // 添加控件
     [self addSubview:self.horizontalScrollView];
@@ -67,7 +67,6 @@ static CGFloat const LyricLabelHeight = 40;
         
     }];
     
-    
     // 关闭滚动指示条 (水平滚动开启分页)
     self.horizontalScrollView.pagingEnabled = YES;
     self.horizontalScrollView.bounces = NO;
@@ -75,12 +74,11 @@ static CGFloat const LyricLabelHeight = 40;
     self.horizontalScrollView.showsHorizontalScrollIndicator = NO;
     self.verticalScrollView.showsHorizontalScrollIndicator = NO;
     self.verticalScrollView.showsVerticalScrollIndicator = NO;
-    
 }
 
 #pragma mark -- 重写setter方法
 // 歌词模型数组setter方法
-- (void)setLyricModelArray:(NSArray *)lyricModelArray{
+- (void)setLyricModelArray:(NSArray *)lyricModelArray {
     
     // 每次切歌先移除子视图  makeObjectsPerformSelector让所有对象都会去执行某一个方法
     [self.verticalScrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
@@ -104,19 +102,16 @@ static CGFloat const LyricLabelHeight = 40;
             make.top.mas_equalTo(LyricLabelHeight*i);
             
         }];
-        
         // 给Label设置数据
         lyricLabel.text = model.content;
     }
     
     // 设置垂直滚动ScrollView的ContentSize
     self.verticalScrollView.contentSize = CGSizeMake(0, LyricLabelHeight * lyricModelArray.count);
-    
-    
 }
 
 // 歌词索引setter方法
-- (void)setCurrentLyricIndex:(NSInteger)currentLyricIndex{
+- (void)setCurrentLyricIndex:(NSInteger)currentLyricIndex {
     
     // 切歌索引处理,防止索引越界
     if (currentLyricIndex != 0) { // 索引=0 代表切换歌曲
@@ -133,7 +128,6 @@ static CGFloat const LyricLabelHeight = 40;
      */
     _currentLyricIndex = currentLyricIndex;
     
-    
     // 设置滚动 (根据索引设置偏移量实现滚动: 偏移量 = 默认偏移量 + 索引 * Label高度 )
     [self.verticalScrollView setContentOffset:CGPointMake(0, -VERTICAL_SCROLLVIEW_OFFSET + currentLyricIndex * LyricLabelHeight) animated:YES];
     
@@ -141,27 +135,23 @@ static CGFloat const LyricLabelHeight = 40;
     JSColorLabel *currentLabel = self.verticalScrollView.subviews[currentLyricIndex];
     // 设置当前Label字体大小
     currentLabel.font = [UIFont systemFontOfSize:21]; // 放大字体
-    
 }
 
 
 // 当前歌词进度setter方法
-- (void)setCurrentLyricProgress:(CGFloat)currentLyricProgress{
-    
+- (void)setCurrentLyricProgress:(CGFloat)currentLyricProgress {
     
     _currentLyricProgress = currentLyricProgress;
     
     // 设置当前Label进度
     JSColorLabel *currentLabel = self.verticalScrollView.subviews[self.currentLyricIndex];
     currentLabel.progress = currentLyricProgress;
-    
 }
 
 
 
-- (void)layoutSubviews{
+- (void)layoutSubviews {
     [super layoutSubviews];
-    
     // 设置内边距
     self.verticalScrollView.contentInset = UIEdgeInsetsMake(VERTICAL_SCROLLVIEW_OFFSET, 0, VERTICAL_SCROLLVIEW_OFFSET, 0);
     // 设置默认的偏移量
@@ -170,16 +160,14 @@ static CGFloat const LyricLabelHeight = 40;
 
 #pragma mark -- 懒加载
 
-- (UIScrollView *)horizontalScrollView{
-    
+- (UIScrollView *)horizontalScrollView {
     if (_horizontalScrollView == nil) {
         _horizontalScrollView = [[UIScrollView alloc]init];
         _horizontalScrollView.delegate = self;
     }
     return _horizontalScrollView;
 }
-- (UIScrollView *)verticalScrollView{
-    
+- (UIScrollView *)verticalScrollView {
     if (_verticalScrollView == nil) {
         _verticalScrollView = [[UIScrollView alloc]init];
     }
@@ -189,13 +177,10 @@ static CGFloat const LyricLabelHeight = 40;
 #pragma mark -- UIScrollViewDelegate
 
 // 滚动水平方向的ScrollView时,根据滚动设置控制器下中心View视图的透明度(实现渐隐效果)
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView == self.horizontalScrollView) {
-
         self.scrollBlock(1-scrollView.contentOffset.x/SCREEN_SIZE.width);
     }
 }
-
-
 
 @end

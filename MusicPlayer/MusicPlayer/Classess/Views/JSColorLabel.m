@@ -10,7 +10,6 @@
 
 @implementation JSColorLabel
 
-
 - (void)drawRect:(CGRect)rect {
     // 调用父类方法: 将Label上的文字绘制上
     [super drawRect:rect];
@@ -75,10 +74,9 @@
 }
 
 // 更新进度的时候执行重绘
-- (void)setProgress:(CGFloat)progress{
+- (void)setProgress:(CGFloat)progress {
     
     _progress = progress;
-    
     // 执行重绘
     [self setNeedsDisplay];
 }
